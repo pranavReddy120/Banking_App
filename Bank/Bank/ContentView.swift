@@ -349,7 +349,7 @@ struct LoginView: View {
                     .frame(width: 40, height: 40)
                     .foregroundColor(.white)
                     .padding(.bottom, 20)
-                Text("Welcome Bob")
+                Text("Welcome User")
                     .font(.title)
                     .foregroundColor(.white)
                     .padding(.bottom, 30)
