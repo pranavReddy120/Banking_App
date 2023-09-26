@@ -3,7 +3,7 @@
 This is an IOS app that shows the user different financial information from their account. 
 The app is Biometric locked, and users will only have access once there is a matching FaceId or TouchId input recognized. 
     
-    ![pic1](Images/Login_Page.png)
+![pic1](Images/Login_Page.png)
 
 The dashboard screen shows the user's total balance as a bolded title, and underneath it shows an image of their card, with the 3 most recent activites listed below that. 
 
