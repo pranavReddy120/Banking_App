@@ -12,6 +12,7 @@ struct BankApp: App {
         }
     }
 }
+
 class AppData: ObservableObject {
     @Published var totalBalance: Double {
         didSet {
@@ -34,6 +35,7 @@ class AppData: ObservableObject {
         totalBalance += amount
     }
 }
+
 struct ContentView: View {
     @State private var isUnlocked = false
     @EnvironmentObject var appData: AppData
@@ -332,6 +334,7 @@ struct ProfileView: View {
         }
     }
 }
+
 struct LoginView: View {
     var authenticate: () -> Void
     var body: some View {
