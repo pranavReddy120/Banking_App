@@ -24,7 +24,6 @@
 		E64163C22AC5079500151212 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E64163C12AC5079500151212 /* FirebaseFirestoreSwift */; };
 		E64163C42AC5079500151212 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = E64163C32AC5079500151212 /* FirebaseFunctions */; };
 		E64163C62AC5079500151212 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = E64163C52AC5079500151212 /* FirebaseFunctionsCombine-Community */; };
-		E64163C82AC508D600151212 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E64163C72AC508D500151212 /* GoogleService-Info.plist */; };
 		E64163CA2AC50F3800151212 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64163C92AC50F3800151212 /* MainView.swift */; };
 		E64163CC2AC5101700151212 /* Purchase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64163CB2AC5101700151212 /* Purchase.swift */; };
 		E64163CE2AC5112B00151212 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64163CD2AC5112B00151212 /* DataManager.swift */; };
@@ -35,13 +34,13 @@
 		E64163DA2AC7621200151212 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64163D92AC7621200151212 /* ProfileView.swift */; };
 		E677EF582AC7B0E9004C8BFB /* NewDepositView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E677EF572AC7B0E9004C8BFB /* NewDepositView.swift */; };
 		E677EF5B2AC8666A004C8BFB /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = E677EF5A2AC8666A004C8BFB /* SwiftUICharts */; };
+		E677EF5F2AC8A584004C8BFB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E677EF5E2AC8A584004C8BFB /* GoogleService-Info.plist */; };
 		E6F500A02AC4E1AB00374F4C /* Banking_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6F5009F2AC4E1AB00374F4C /* Banking_2App.swift */; };
 		E6F500A42AC4E1AD00374F4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F500A32AC4E1AD00374F4C /* Assets.xcassets */; };
 		E6F500A72AC4E1AD00374F4C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6F500A62AC4E1AD00374F4C /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E64163C72AC508D500151212 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E64163C92AC50F3800151212 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E64163CB2AC5101700151212 /* Purchase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Purchase.swift; sourceTree = "<group>"; };
 		E64163CD2AC5112B00151212 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		E64163D72AC761EC00151212 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E64163D92AC7621200151212 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		E677EF572AC7B0E9004C8BFB /* NewDepositView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewDepositView.swift; sourceTree = "<group>"; };
+		E677EF5E2AC8A584004C8BFB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E6F5009C2AC4E1AB00374F4C /* Banking_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Banking_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6F5009F2AC4E1AB00374F4C /* Banking_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banking_2App.swift; sourceTree = "<group>"; };
 		E6F500A32AC4E1AD00374F4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -115,7 +115,7 @@
 				E64163D92AC7621200151212 /* ProfileView.swift */,
 				E64163CF2AC5CF4100151212 /* NewPurchaseView.swift */,
 				E677EF572AC7B0E9004C8BFB /* NewDepositView.swift */,
-				E64163C72AC508D500151212 /* GoogleService-Info.plist */,
+				E677EF5E2AC8A584004C8BFB /* GoogleService-Info.plist */,
 				E6F500A32AC4E1AD00374F4C /* Assets.xcassets */,
 				E6F500A52AC4E1AD00374F4C /* Preview Content */,
 			);
@@ -213,8 +213,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6F500A72AC4E1AD00374F4C /* Preview Assets.xcassets in Resources */,
+				E677EF5F2AC8A584004C8BFB /* GoogleService-Info.plist in Resources */,
 				E6F500A42AC4E1AD00374F4C /* Assets.xcassets in Resources */,
-				E64163C82AC508D600151212 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
